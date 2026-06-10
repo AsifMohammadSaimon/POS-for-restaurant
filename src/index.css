@@ -1,0 +1,48 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  /* Mady Brand Colors */
+  --mady-yellow: #FFC107;
+  --mady-red: #E8001C;
+  --mady-dark: #1A0A00;
+  --mady-warm: #FFF8F0;
+  --mady-gold: #D4A017;
+
+  /* UI Colors - Light */
+  --color-background-primary: #FFFFFF;
+  --color-background-secondary: #FFF8F0;
+  --color-background-tertiary: #FEF3E2;
+  --color-background-info: #FFF3CD;
+  --color-background-success: #d1fae5;
+  --color-background-danger: #fee2e2;
+  --color-background-warning: #fef9c3;
+  --color-text-primary: #1A0A00;
+  --color-text-secondary: #7a5c3a;
+  --color-text-info: #92400e;
+  --color-text-success: #065f46;
+  --color-text-danger: #991b1b;
+  --color-text-warning: #78350f;
+  --color-border-tertiary: rgba(212,160,23,0.15);
+  --color-border-secondary: rgba(212,160,23,0.3);
+  --color-border-primary: rgba(212,160,23,0.6);
+  --color-border-danger: rgba(220,38,38,0.4);
+  --border-radius-md: 8px;
+  --border-radius-lg: 14px;
+  --border-radius-xl: 20px;
+  --font-sans: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', monospace;
+  --shadow-sm: 0 1px 4px rgba(26,10,0,0.08);
+  --shadow-md: 0 4px 16px rgba(26,10,0,0.10);
+  --shadow-lg: 0 8px 32px rgba(26,10,0,0.14);
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-background-tertiary);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--mady-yellow); border-radius: 3px; }

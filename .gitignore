@@ -1,0 +1,11 @@
+node_modules/
+dist/
+release/
+*.exe
+*.dll
+*.pak
+*.bin
+*.dat
+locales/
+resources/
+*.asar
